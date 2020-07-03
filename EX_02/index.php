@@ -11,21 +11,21 @@
      <div class="navigation">
      <nav>
          <?php if ($_GET['page'] == 'accueil') : ?>
-            <strong><a style="color:#17c1ff" href="vitrine-accueil.html">Accueil</a></strong>
+            <strong><a style="color:#17c1ff" href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=accueil">Accueil</a></strong>
          <?php else: ?>
-            <a href="http://localhost:8888/ISSC%20-%202020/ISCC-2020-J08/EX_02/?page=accueil">Accueil</a>
+            <a href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=accueil">Accueil</a>
          <?php endif; ?>
 
          <?php if ($_GET['page'] == 'contacts') : ?>
-            <strong><a style="color:#17c1ff" href="vitrine-contacts.html">Contact</a></strong>
+            <strong><a style="color:#17c1ff" href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=contacts">Contact</a></strong>
             <?php else: ?>
-                <a href="http://localhost:8888/ISSC%20-%202020/ISCC-2020-J08/EX_02/?page=contacts">Contact</a>
+                <a href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=contacts">Contact</a>
          <?php endif; ?>
 
          <?php if ($_GET['page'] == 'programme') : ?>
-            <strong><a style="color:#17c1ff" href="vitrine-programme.html">Programme</a></strong>
+            <strong><a style="color:#17c1ff" href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=programme">Programme</a></strong>
             <?php else: ?>
-                <a href="http://localhost:8888/ISSC%20-%202020/ISCC-2020-J08/EX_02/?page=programme">Programme</a>
+                <a href="http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/?page=programme">Programme</a>
          <?php endif; ?>
 
         </nav>
